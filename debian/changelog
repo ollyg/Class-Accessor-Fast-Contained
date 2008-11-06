@@ -1,0 +1,12 @@
+libclass-accessor-fast-contained-perl (0.05-1) unstable; urgency=low
+
+  * Rewritten to better handle typeglob and hash ref objects
+
+ -- Oliver Gorwits <oliver.gorwits@oucs.ox.ac.uk>  Tue, 19 Sep 2006 13:52:35 +0100
+
+libclass-accessor-fast-contained-perl (0.01-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Oliver Gorwits <oliver.gorwits@oucs.ox.ac.uk>  Mon, 18 Sep 2006 13:52:35 +0100
+

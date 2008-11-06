@@ -1,0 +1,14 @@
+Changes
+INSTALL
+lib/Class/Accessor/Fast/Contained.pm
+Makefile.PL
+MANIFEST
+META.yml
+README
+t/pod.t
+t/pod-coverage.t
+t/09-twoobjects.t
+t/10-accessors.t
+t/20-aliases.t
+t/30-bestpractice.t
+t/40-croak.t
