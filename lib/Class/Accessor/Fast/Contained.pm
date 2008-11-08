@@ -4,7 +4,9 @@ use strict;
 use warnings FATAL => qw(all);
 
 use base qw(Class::Accessor::Fast);
-our $VERSION = 0.05;
+
+our $VERSION = '1.01';
+$VERSION = eval $VERSION; # numify for warning-free dev releases
 
 use Symbol;
 
@@ -75,8 +77,7 @@ Class::Accessor::Fast::Contained - Fast accessors with data containment
 
 =head1 VERSION
 
-This document refers to version 0.05 of Class::Accessor::Fast::Contained,
-released Tuesday Sep 19, 2006.
+This document refers to version 1.01 of Class::Accessor::Fast::Contained
 
 =head1 SYNOPSIS
 
@@ -148,17 +149,8 @@ tests, which I've shamelessly borrowed for this distribution.
 
 Copyright (c) The University of Oxford 2006. All Rights Reserved.
 
-This program is free software; you can redistribute it and/or modify it under
-the terms of version 2 of the GNU General Public License as published by the
-Free Software Foundation.
-
-This program is distributed in the hope that it will be useful, but WITHOUT
-ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along with
-this program; if not, write to the Free Software Foundation, Inc., 51 Franklin
-St, Fifth Floor, Boston, MA 02110-1301 USA
+This library is free software; you can redistribute it and/or modify it under
+the same terms as Perl itself.
 
 =cut
 
