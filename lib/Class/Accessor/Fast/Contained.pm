@@ -147,7 +147,7 @@ tests, which I've shamelessly borrowed for this distribution.
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright (c) The University of Oxford 2006. All Rights Reserved.
+Copyright (c) The University of Oxford 2008.
 
 This library is free software; you can redistribute it and/or modify it under
 the same terms as Perl itself.
