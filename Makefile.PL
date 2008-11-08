@@ -8,6 +8,8 @@ requires    'base' => 0;
 requires    'Class::Accessor' => 0;
 
 test_requires  'Test::More' => 0;
+test_requires  'Test::Pod' => 0;
+test_requires  'Test::Pod::Coverage' => 0;
 
 WriteAll;
 
